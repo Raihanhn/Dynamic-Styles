@@ -1,9 +1,11 @@
 import React from 'react'
 import glass from './glass.css'
+import Tilt from 'react-parallax-tilt'
 
 const Glass = () => {
   return (
     <div className="container">
+        <Tilt>
         <div className="card">
             <div className="content">
                 <h2>01</h2>
@@ -12,6 +14,7 @@ const Glass = () => {
                 <a href="#">Read More</a>
             </div>
         </div>
+        </Tilt>
     </div>
   )
 }

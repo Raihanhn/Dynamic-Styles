@@ -87,13 +87,13 @@ body::after{
 
 .container .card .content h3{
     font-size: 1.8rem;
-    color: #fff;
+    color: rgb(252, 6, 170);
     z-index: 1;
 }
 
 .container .card .content p{
     font-size: 1rem;
-    color: #fff;
+    color: rgb(161, 240, 15);
     font-weight: 300;
 }
 
@@ -102,8 +102,8 @@ body::after{
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background: #fff;
-    color: #000;
+    background: linear-gradient(rgb(0, 174, 255), rgb(255, 0, 128));
+    color: #fff;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;

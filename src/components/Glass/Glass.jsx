@@ -1,6 +1,7 @@
 import React from 'react'
 import glass from './glass.css'
 import Tilt from 'react-parallax-tilt'
+import img from '../../assets/img/pic-4.png'
 
 const Glass = () => {
   return (
@@ -15,6 +16,18 @@ const Glass = () => {
             </div>
         </div>
         </Tilt>
+
+        <Tilt>
+          <div className="card">
+            <div className="content">
+              <img src={img} alt="" />
+                <h1 className='name'>Erika watson</h1>
+                <p className='riko'>Front End Developer</p>
+                <a href="#">message me</a>
+            </div>
+          </div>
+        </Tilt>
+
     </div>
   )
 }
